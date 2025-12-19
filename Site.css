@@ -1,0 +1,70 @@
+﻿/* Global body padding */
+body {
+    padding-top: 56px;
+}
+
+/* Grid hover effect */
+.product-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+/* Footer styling */
+footer {
+    padding: 1rem 0;
+}
+
+/* Custom form margins */
+form {
+    margin-top: 20px;
+}
+
+/* Google Maps responsiveness */
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+/* Product card styling */
+.card {
+    margin-bottom: 30px;
+    
+}
+
+.card img {
+   
+    height: 500px;
+    object-fit: cover;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .card img {
+        height: 200px;
+    }
+}
+object
+{
+}
+
+
+
+
+
